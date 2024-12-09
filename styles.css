@@ -1,3 +1,5 @@
+/* tag selector */
+
 table {
     border-collapse: collapse;
     /* border: 2px solid rgb(140 140 140); */
@@ -24,7 +26,7 @@ table {
   }
   
   td:last-of-type {
-    text-align: center;
+    /* text-align: center; */
   }
   
   tbody > tr:nth-of-type(even) {
@@ -43,3 +45,21 @@ table {
   img{width: 250px; 
     height: 250px;
     border-radius: 50%;}
+
+hr{
+    background-color: #F5F0CD;
+    border-style: dotted none none;
+    border-color: #81BFDA;
+    border-width: 7px;
+    width: 70%;
+    height: 2px;
+  }
+
+body{
+  background-color: #B1F0F7;
+}
+
+h1{
+  color: #a25e25;
+}
+
